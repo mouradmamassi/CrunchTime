@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context="com.example.mm.crunchtime.Main3Activity">
+
+    <TextView
+        android:text="Wagon : "
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        android:id="@+id/tv_wagon"
+        android:textSize="32sp"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:layout_below="@+id/tv_cale"
+        android:layout_alignLeft="@+id/wagon"
+        android:layout_alignStart="@+id/wagon"
+        android:layout_marginTop="69dp"
+        android:layout_x="30dp"
+        android:layout_y="297dp" />
+
+    <TextView
+        android:text="Cale : "
+        android:layout_width="124dp"
+        android:layout_height="63dp"
+        android:id="@+id/tv_cale"
+        android:layout_marginTop="35dp"
+        android:textSize="32sp"
+        android:layout_below="@+id/btn_acc"
+        android:layout_x="28dp"
+        android:layout_y="204dp" />
+
+    <TextView
+        android:text="www"
+        android:layout_width="202dp"
+        android:layout_height="62dp"
+        android:id="@+id/wagon"
+        android:layout_alignBaseline="@+id/btn_acc"
+        android:layout_alignBottom="@+id/btn_acc"
+        android:layout_toLeftOf="@+id/btn_acc"
+        android:layout_toStartOf="@+id/btn_acc"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:textSize="32sp"
+        android:layout_x="165dp"
+        android:layout_y="296dp" />
+
+    <TextView
+        android:text="ccc"
+        android:layout_width="232dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:id="@+id/cale"
+        android:layout_x="143dp"
+        android:layout_y="203dp" />
+
+    <Button
+        android:text=""
+        android:textSize="32sp"
+        android:layout_width="96dp"
+        android:layout_height="80dp"
+        android:onClick="goIndex"
+        android:id="@+id/btn_acc"
+        android:background="@drawable/ok"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/cale"
+        android:layout_toLeftOf="@+id/cale"
+        android:layout_toStartOf="@+id/cale"
+        android:layout_marginRight="51dp"
+        android:layout_marginEnd="51dp"
+        android:layout_row="9"
+        android:layout_column="6"
+        android:layout_x="140dp"
+        android:layout_y="419dp" />
+</AbsoluteLayout>
